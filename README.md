@@ -1,4 +1,4 @@
-# go-battleship
+# battleship-go
 
 Go School project to make a Battleship game using Go.
 
