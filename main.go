@@ -8,7 +8,7 @@ func main() {
 	// Anything in a file which is in the same dir as this one
 	// is considered to already be in scope - no need for explicit imports
 	baseHandler := &Handler{}       // instance of class from handler.go
-	countHandler := &CountHandler{} // from of class counter.go
+	countHandler := &CountHandler{} // instance of class from counter.go
 
 	// Define routes
 	http.Handle("/", baseHandler)
